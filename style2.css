@@ -1,0 +1,187 @@
+/* ---------- MOBILE RESPONSIVE ---------- */
+#menu-icon{
+display:none;
+}
+@media (max-width:768px){
+
+/* HEADER */
+
+.header{
+padding:15px 5%;
+}
+
+.logo{
+font-size:20px;
+}
+
+/* HAMBURGER ICON */
+
+#menu-icon{
+display:block;
+font-size:28px;
+cursor:pointer;
+}
+
+/* NAVBAR */
+
+.navbar{
+position:absolute;
+top:100%;
+left:0;
+width:100%;
+background:#081b29;
+display:none;
+flex-direction:column;
+text-align:center;
+padding:20px 0;
+}
+
+.navbar a{
+display:block;
+margin:15px 0;
+font-size:18px;
+}
+
+.navbar.active{
+display:flex;
+}
+
+
+/* HOME SECTION */
+
+.home{
+flex-direction:column;
+text-align:center;
+height:auto;
+padding:120px 5% 40px;
+}
+
+.home-img{
+order:-1;
+margin-bottom:30px;
+}
+
+.home-img img{
+width:220px;
+}
+
+.home-content h1{
+font-size:36px;
+}
+
+.home-content h3{
+font-size:22px;
+}
+
+
+/* ABOUT SECTION */
+
+.about{
+height:auto;
+}
+
+.container2{
+flex-direction:column;
+align-items:center;
+margin-top:50px;
+}
+
+.left-img{
+width:100%;
+height:auto;
+margin-left:0;
+text-align:center;
+}
+
+.about-img{
+width:220px;
+}
+
+.right-text{
+width:90%;
+font-size:34px;
+text-align:center;
+}
+
+.txt{
+font-size:16px;
+}
+
+
+/* SERVICES */
+
+.services{
+height:auto;
+}
+
+.container-3{
+grid-template-columns:1fr;
+gap:25px;
+height:auto;
+padding:20px;
+}
+
+.boxes{
+height:auto;
+padding-bottom:20px;
+}
+
+#box1,#box3{
+margin:0;
+}
+
+
+/* SKILLS */
+
+.skills-section{
+height:auto;
+}
+
+.skillbox{
+grid-template-columns:1fr;
+height:auto;
+}
+
+.skills-container{
+grid-template-columns:1fr;
+gap:40px;
+margin-top:40px;
+}
+
+.MySkills{
+font-size:40px;
+}
+
+
+/* PROJECTS */
+
+.project{
+height:auto;
+}
+
+.MyProjects{
+grid-template-columns:1fr;
+gap:25px;
+height:auto;
+}
+
+
+/* CONTACT */
+
+.contact{
+flex-direction:column;
+height:auto;
+padding:30px 20px;
+}
+
+.contSec1{
+width:100%;
+margin-left:0;
+}
+
+.contact form{
+max-width:100%;
+width:100%;
+}
+
+}
