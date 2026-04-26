@@ -1,5 +1,5 @@
 const words = [
-"Full Stack Web Developer",
+"Web Developer",
 "ECE Student",
 "DSA Learner",
 "AI & ML Enthusiast"
